@@ -52,7 +52,6 @@ nav a:hover{
   position: relative;
   top: 40px;
 
-  /*Your code here*/
 }
 
 
@@ -125,22 +124,22 @@ header p{
 }
 
 .about, .about-image{
-   grid-row: 2 / span 1;
+   grid-row: 2 / auto;
 
 }
 
 .method, .method-image{
-  grid-row: 3 / span 1;
+  grid-row: 3 / auto;
 }
 
 
 .clients, .clients-image{
-  grid-row: 4 / span 1;
+  grid-row: 4 / auto;
 }
 
 
 .contact, .contact-image{
-  grid-row: 5 / span 1;
+  grid-row: 5 / auto;
 }
 
 .text-block{
